@@ -1,0 +1,73 @@
+.user-buttons {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin: 30px 0px;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 30px auto;
+}
+
+.customer-icon-del {
+    background-color: transparent;
+    border: none;
+}
+
+.user-container-form {
+    margin: auto;
+    text-align: center;
+    background-color: var(--fifth);
+    width: 45vmax;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 30px 15px 5px;
+}
+
+.user-title-form {
+    display: flex;
+    justify-content: center;
+}
+
+.input-form-ancho {
+    text-align: center;
+    width: 35vmax;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.user-title-dark {
+    text-align: left;
+}
+
+.user-back {
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    border: none;
+    position: absolute;
+    padding: 2px 3px;
+}
+
+.user-back:hover {
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.user-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-btn {
+    color: white;
+    border-radius: 20px;
+    padding: 5px 13%;
+    margin: 10px 5px;
+}
+
+@media only screen and (max-width: 880px) {
+    .user-back {
+        position: relative;
+    }
+}

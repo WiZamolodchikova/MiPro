@@ -1,0 +1,97 @@
+.component-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.customer-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-container {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin: 30px 0px;
+}
+
+.filter-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: row;
+}
+
+.container-detail-user {
+    background-color: var(--fifth);
+    border-radius: 20px;
+    padding: 30px 40px;
+    width: 40vmax;
+}
+
+.input-detail {
+    background-color: rgb(195, 193, 200);
+    border-radius: 20px;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.card-header {
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+    .customer-profile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* ############### AUTORIZACIÓN PAGE ############### */
+
+.container-gestion {
+    background-color: var(--fifth);
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+
+.au-page-input {
+    background: rgb(195, 193, 200);
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.qr-buttons-container {
+    width: 50%;
+    text-align: center;
+}
+
+.qr-buttons-container button {
+    width: 58%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 607px) {
+    .profile-container {
+        display: block;
+    }
+
+    .qr-buttons-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .qr-buttons-container button {
+        width: 78%;
+        text-align: center;
+    }
+}
